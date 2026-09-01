@@ -2,6 +2,7 @@ package com.sayhi.extensions;
 
 import android.app.*;import android.os.*;import android.content.*;import android.net.Uri;import android.provider.Settings;import android.view.*;import android.webkit.*;import android.widget.*;import java.util.*;
 
+@SuppressWarnings("deprecation")
 public class MainActivity extends Activity {
     WebView web; EditText url; ExtensionManager extensions;
     @Override public void onCreate(Bundle b){super.onCreate(b);setContentView(R.layout.activity_main);
